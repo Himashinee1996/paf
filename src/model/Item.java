@@ -16,7 +16,7 @@ public class Item {
 		 Class.forName("com.mysql.jdbc.Driver");
 
 		 //Provide the correct details: DBServer/DBName, username, password
-		 con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/test", "root", "");
+		 con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/test", "root", "sliit123");
 		 }
 		 catch (Exception e)
 		 {e.printStackTrace();}
